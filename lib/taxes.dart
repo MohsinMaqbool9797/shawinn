@@ -4,12 +4,13 @@ import 'package:flutter/material.dart';
 
 taxes() {
   return Padding(
-    padding: const EdgeInsets.symmetric(vertical: 10.0,),
-    
+    padding: const EdgeInsets.symmetric(
+      vertical: 10.0,
+    ),
     child: Text(
       'Prices shown are in INR\nPlease speak to your server for any dietary requirements\n 18% GST Extra',
       style: TextStyle(
-        color: Colors.black,
+        color: Colors.white,
         fontSize: 18,
         fontFamily: 'Mansory',
         fontWeight: FontWeight.bold,

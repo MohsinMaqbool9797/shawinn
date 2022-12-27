@@ -215,11 +215,11 @@ class _A_La_CarteState extends State<A_La_Carte> {
     ];
 
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.transparent,
       appBar: AppBar(
         // title: Text("Breakfast"),
-        backgroundColor: Colors.white,
-        iconTheme: IconThemeData(color: Colors.black),
+        backgroundColor: Colors.transparent,
+        iconTheme: IconThemeData(color: Colors.white),
         elevation: 0.0,
         leading: IconButton(
           icon: Icon(
@@ -233,6 +233,17 @@ class _A_La_CarteState extends State<A_La_Carte> {
       body: SafeArea(
         child: Container(
           padding: EdgeInsets.all(5.0),
+          decoration: BoxDecoration(
+            // borderRadius: BorderRadius.circular(10),
+            image: DecorationImage(
+              image: AssetImage('assets/background.jpg'),
+              fit: BoxFit.cover,
+              colorFilter: ColorFilter.mode(
+                Colors.black.withOpacity(.5),
+                BlendMode.hardLight,
+              ),
+            ),
+          ),
           child: Column(
             children: <Widget>[
               Container(
@@ -246,7 +257,7 @@ class _A_La_CarteState extends State<A_La_Carte> {
                         textAlign: TextAlign.center,
                         style: TextStyle(
                           fontSize: 34.0,
-                          color: Colors.black,
+                          color: Colors.white,
                           fontFamily: 'Mansory',
                           fontWeight: FontWeight.w600,
                         ),
@@ -263,13 +274,12 @@ class _A_La_CarteState extends State<A_La_Carte> {
                     SizedBox(
                       height: 10.0,
                     ),
-          
                   ],
                 ),
               ),
-                Container(
+              Container(
                 alignment: Alignment.bottomCenter,
-                   child:taxes(),
+                child: taxes(),
               )
             ],
           ),
