@@ -221,7 +221,7 @@ class _LocavoreState extends State<Locavore> {
             children: <Widget>[
               Container(
                 width: double.infinity,
-                height: 100,
+                height: 110,
                 child: Center(
                   child: Column(
                     children: [
@@ -250,10 +250,14 @@ class _LocavoreState extends State<Locavore> {
                     SizedBox(
                       height: 10.0,
                     ),
-                    taxes(),
+                
                   ],
                 ),
               ),
+                Container(
+                alignment: Alignment.bottomCenter,
+                   child:taxes(),
+              )
             ],
           ),
         ),

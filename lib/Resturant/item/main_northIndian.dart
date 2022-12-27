@@ -222,7 +222,7 @@ class _NorthIndianState extends State<NorthIndian> {
             children: <Widget>[
               Container(
                 width: double.infinity,
-                height: 100,
+                height: 110,
                 child: Center(
                   child: Column(
                     children: [
@@ -251,10 +251,14 @@ class _NorthIndianState extends State<NorthIndian> {
                     SizedBox(
                       height: 10.0,
                     ),
-                    taxes(),
+                   
                   ],
                 ),
               ),
+                Container(
+                alignment: Alignment.bottomCenter,
+                   child:taxes(),
+              )
             ],
           ),
         ),

@@ -197,10 +197,14 @@ class _ShakesState extends State<Shakess> {
                     SizedBox(
                       height: 30.0,
                     ),
-                    taxes(),
+               
                   ],
                 ),
               ),
+                Container(
+                alignment: Alignment.bottomCenter,
+                   child:taxes(),
+              )
             ],
           ),
         ),

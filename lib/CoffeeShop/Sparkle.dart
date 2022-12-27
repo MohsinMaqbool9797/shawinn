@@ -192,10 +192,14 @@ class _SparkleState extends State<Sparkle> {
                     SizedBox(
                       height: 30.0,
                     ),
-                    taxes(),
+             
                   ],
                 ),
               ),
+                Container(
+                alignment: Alignment.bottomCenter,
+                   child:taxes(),
+              )
             ],
           ),
         ),

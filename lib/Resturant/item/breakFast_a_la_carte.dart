@@ -237,7 +237,7 @@ class _A_La_CarteState extends State<A_La_Carte> {
             children: <Widget>[
               Container(
                 width: double.infinity,
-                height: 100,
+                height: 110,
                 child: Center(
                   child: Column(
                     children: [
@@ -263,10 +263,14 @@ class _A_La_CarteState extends State<A_La_Carte> {
                     SizedBox(
                       height: 10.0,
                     ),
-                    taxes(),
+          
                   ],
                 ),
               ),
+                Container(
+                alignment: Alignment.bottomCenter,
+                   child:taxes(),
+              )
             ],
           ),
         ),

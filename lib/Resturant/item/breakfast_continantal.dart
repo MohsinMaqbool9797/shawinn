@@ -195,10 +195,14 @@ class _ContinantalState extends State<Continantal> {
                     SizedBox(
                       height: 10.0,
                     ),
-                    taxes(),
+               
                   ],
                 ),
               ),
+                Container(
+                alignment: Alignment.bottomCenter,
+                   child:taxes(),
+              )
             ],
           ),
         ),

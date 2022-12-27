@@ -192,10 +192,14 @@ class _FlavouredFavouritesState extends State<FlavouredFavourites> {
                     SizedBox(
                       height: 35.0,
                     ),
-                    taxes(),
+               
                   ],
                 ),
               ),
+              Container(
+                alignment: Alignment.bottomCenter,
+                   child:taxes(),
+              )
             ],
           ),
         ),

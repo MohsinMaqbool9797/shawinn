@@ -178,7 +178,7 @@ class _RiceRotiRaitaState extends State<RiceRotiRaita> {
             children: <Widget>[
               Container(
                 width: double.infinity,
-                height: 100,
+                height: 110,
                 child: Center(
                   child: Column(
                     children: [
@@ -387,10 +387,14 @@ class _RiceRotiRaitaState extends State<RiceRotiRaita> {
                     SizedBox(
                       height: 10.0,
                     ),
-                    taxes(),
+               
                   ],
                 ),
               ),
+                Container(
+                alignment: Alignment.bottomCenter,
+                   child:taxes(),
+              )
             ],
           ),
         ),

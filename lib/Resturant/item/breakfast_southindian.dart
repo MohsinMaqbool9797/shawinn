@@ -204,10 +204,14 @@ class _SouthIndianState extends State<SouthIndian> {
                     SizedBox(
                       height: 10.0,
                     ),
-                    taxes(),
+               
                   ],
                 ),
               ),
+                Container(
+                alignment: Alignment.bottomCenter,
+                   child:taxes(),
+              )
             ],
           ),
         ),

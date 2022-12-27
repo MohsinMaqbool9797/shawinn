@@ -199,10 +199,14 @@ class _MocktailsState extends State<Mocktail> {
                     SizedBox(
                       height: 30.0,
                     ),
-                    taxes(),
+          
                   ],
                 ),
               ),
+                Container(
+                alignment: Alignment.bottomCenter,
+                   child:taxes(),
+              )
             ],
           ),
         ),

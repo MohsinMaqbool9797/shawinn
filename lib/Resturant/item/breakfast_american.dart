@@ -204,10 +204,14 @@ class _AmericanState extends State<American> {
                     SizedBox(
                       height: 10.0,
                     ),
-                    taxes(),
+                
                   ],
                 ),
               ),
+                Container(
+                alignment: Alignment.bottomCenter,
+                   child:taxes(),
+              )
             ],
           ),
         ),

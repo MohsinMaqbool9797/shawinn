@@ -151,7 +151,7 @@ class _DessertsState extends State<Desserts> {
       price: "300");
 
   Items item7 = new Items(
-      title: "WallNut Brownie With Ice Cream",
+      title: "Wallnut Brownie With Ice Cream",
       subtitle: "",
       color: Colors.red,
       price: "150");
@@ -205,7 +205,7 @@ class _DessertsState extends State<Desserts> {
             children: <Widget>[
               Container(
                 width: double.infinity,
-                height: 100,
+                height: 110,
                 child: Center(
                   child: Column(
                     children: [
@@ -234,10 +234,14 @@ class _DessertsState extends State<Desserts> {
                     SizedBox(
                       height: 10.0,
                     ),
-                    taxes(),
+             
                   ],
                 ),
               ),
+                Container(
+                alignment: Alignment.bottomCenter,
+                   child:taxes(),
+              )
             ],
           ),
         ),

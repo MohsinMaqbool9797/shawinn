@@ -187,10 +187,14 @@ class _IcedTeaState extends State<IcedTea> {
                     SizedBox(
                       height: 30.0,
                     ),
-                    taxes(),
+                   
                   ],
                 ),
               ),
+                Container(
+                alignment: Alignment.bottomCenter,
+                   child:taxes(),
+              )
             ],
           ),
         ),

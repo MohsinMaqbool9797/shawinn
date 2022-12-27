@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors, missing_return, unnecessary_new
+
 import 'package:flutter/material.dart';
 
 import 'package:shawinn/Resturant/item/soup.dart';
@@ -62,7 +64,7 @@ class _ResturantShopState extends State<ResturantShop> {
       appBar: AppBar(
         iconTheme: const IconThemeData(color: Colors.black),
         title: Text(
-          "The Resturant",
+          "The Restaurant",
           style: TextStyle(
               color: Colors.black,
               fontSize: 24.0,
@@ -137,7 +139,7 @@ class _ResturantShopState extends State<ResturantShop> {
                               padding: const EdgeInsets.all(16.0),
                               child: const Text.rich(
                                 TextSpan(
-                                  text: 'BreakFast',
+                                  text: 'Breakfast',
                                   style: TextStyle(
                                     color: Colors.white,
                                     fontSize: 24.0,
@@ -325,7 +327,7 @@ class _ResturantShopState extends State<ResturantShop> {
                     padding: const EdgeInsets.all(25),
                     crossAxisCount: 2,
                     crossAxisSpacing: 30,
-                    mainAxisSpacing: 30,
+                    mainAxisSpacing: 20,
                     children: <Widget>[
                       InkWell(
                         child: Container(
@@ -348,7 +350,7 @@ class _ResturantShopState extends State<ResturantShop> {
                               padding: const EdgeInsets.all(18.0),
                               child: const Text.rich(
                                 TextSpan(
-                                  text: 'BreakFast \n',
+                                  text: 'Breakfast \n',
                                   style: TextStyle(
                                     color: Colors.white,
                                     fontSize: 28.0,
@@ -559,7 +561,7 @@ class _ResturantShopState extends State<ResturantShop> {
                             padding: const EdgeInsets.all(18.0),
                             child: const Text.rich(
                               TextSpan(
-                                text: 'BreakFast\n',
+                                text: 'Breakfast\n',
                                 style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 28.0,

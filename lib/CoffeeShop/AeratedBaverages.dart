@@ -187,10 +187,14 @@ class _AeratedState extends State<Aerated> {
                     const SizedBox(
                       height: 35.0,
                     ),
-                    taxes(),
+                  
                   ],
                 ),
               ),
+                Container(
+                alignment: Alignment.bottomCenter,
+                   child:taxes(),
+              )
             ],
           ),
         ),

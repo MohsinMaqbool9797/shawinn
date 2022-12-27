@@ -154,10 +154,14 @@ class _Hot_CoffeState extends State<Hot_Coffe> {
                     SizedBox(
                       height: 35.0,
                     ),
-                    taxes(),
+               
                   ],
                 ),
               ),
+                Container(
+                alignment: Alignment.bottomCenter,
+                   child:taxes(),
+              )
             ],
           ),
         ),

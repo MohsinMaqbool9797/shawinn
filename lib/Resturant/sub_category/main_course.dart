@@ -140,7 +140,7 @@ class _MainCourseState extends State<MainCourse> {
                               ),
                             ),
                             child: Padding(
-                              padding: const EdgeInsets.all(16.0),
+                              padding: const EdgeInsets.all(13.0),
                               child: const Text.rich(
                                 TextSpan(
                                   text: 'International',
@@ -185,7 +185,7 @@ class _MainCourseState extends State<MainCourse> {
                               padding: const EdgeInsets.all(16.0),
                               child: const Text.rich(
                                 TextSpan(
-                                  text: 'North Indian',
+                                  text: 'North -\nIndian',
                                   style: TextStyle(
                                     color: Colors.white,
                                     fontSize: 24.0,
@@ -392,10 +392,10 @@ class _MainCourseState extends State<MainCourse> {
                               ),
                             ),
                             child: Padding(
-                              padding: const EdgeInsets.all(18.0),
+                              padding: const EdgeInsets.all(13.0),
                               child: const Text.rich(
                                 TextSpan(
-                                  text: 'Inter - \nNational ',
+                                  text: 'International ',
                                   style: TextStyle(
                                     color: Colors.white,
                                     fontSize: 28.0,
@@ -643,10 +643,10 @@ class _MainCourseState extends State<MainCourse> {
                             ),
                           ),
                           child: Padding(
-                            padding: const EdgeInsets.all(18.0),
+                            padding: const EdgeInsets.all(13.0),
                             child: const Text.rich(
                               TextSpan(
-                                text: 'Inter -\nNational',
+                                text: 'International',
                                 style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 28.0,

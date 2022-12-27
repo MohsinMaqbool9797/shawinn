@@ -189,7 +189,7 @@ class _InternationalState extends State<International> {
             children: <Widget>[
               Container(
                 width: double.infinity,
-                height: 100,
+                height: 110,
                 child: Center(
                   child: Column(
                     children: [
@@ -218,10 +218,14 @@ class _InternationalState extends State<International> {
                     SizedBox(
                       height: 10.0,
                     ),
-                    taxes(),
+                  
                   ],
                 ),
               ),
+                Container(
+                alignment: Alignment.bottomCenter,
+                   child:taxes(),
+              )
             ],
           ),
         ),
