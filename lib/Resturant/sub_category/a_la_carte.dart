@@ -110,7 +110,7 @@ class _BreakfastState extends State<Breakfast> {
                       child: GridView.count(
                     primary: false,
                     physics: NeverScrollableScrollPhysics(),
-                    padding: const EdgeInsets.all(25),
+                    padding: const EdgeInsets.all(10),
                     crossAxisCount: 2,
                     crossAxisSpacing: 15,
                     mainAxisSpacing: 15,
@@ -133,17 +133,16 @@ class _BreakfastState extends State<Breakfast> {
                               ),
                             ),
                             child: Padding(
-                              padding: const EdgeInsets.all(16.0),
-                              child: const Text.rich(
-                                TextSpan(
-                                  text: 'A La Carte',
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 24.0,
-                                    fontWeight: FontWeight.w600,
-                                    fontFamily: 'Mansory',
-                                  ), // default text styl
-                                ),
+                              padding: const EdgeInsets.all(10.0),
+                              child: const Text(
+                                'A La Carte',
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 24.0,
+                                  fontWeight: FontWeight.w600,
+                                  fontFamily: 'Mansory',
+                                ), // default text styl
                               ),
                             )),
                         onTap: () {
@@ -175,7 +174,7 @@ class _BreakfastState extends State<Breakfast> {
                               ),
                             ),
                             child: Padding(
-                              padding: const EdgeInsets.all(16.0),
+                              padding: const EdgeInsets.all(10.0),
                               child: const Text.rich(
                                 TextSpan(
                                   text: 'Continental',
@@ -217,17 +216,16 @@ class _BreakfastState extends State<Breakfast> {
                               ),
                             ),
                             child: Padding(
-                              padding: const EdgeInsets.all(16.0),
-                              child: const Text.rich(
-                                TextSpan(
-                                  text: 'American',
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 24.0,
-                                    fontWeight: FontWeight.w600,
-                                    fontFamily: 'Mansory',
-                                  ), // default text style
-                                ),
+                              padding: const EdgeInsets.all(10.0),
+                              child: const Text(
+                                'American',
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 24.0,
+                                  fontWeight: FontWeight.w600,
+                                  fontFamily: 'Mansory',
+                                ), // default text style
                               ),
                             )),
                         onTap: () {
@@ -257,17 +255,16 @@ class _BreakfastState extends State<Breakfast> {
                               ),
                             ),
                             child: Padding(
-                              padding: const EdgeInsets.all(16.0),
-                              child: const Text.rich(
-                                TextSpan(
-                                  text: 'South Indian',
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 24.0,
-                                    fontWeight: FontWeight.w600,
-                                    fontFamily: 'Mansory',
-                                  ), // default text style
-                                ),
+                              padding: const EdgeInsets.all(10.0),
+                              child: const Text(
+                                'South Indian',
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 24.0,
+                                  fontWeight: FontWeight.w600,
+                                  fontFamily: 'Mansory',
+                                ), // default text style
                               ),
                             )),
                         onTap: () {

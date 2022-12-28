@@ -68,7 +68,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 Expanded(
                   child: Center(
                       child: Padding(
-                    padding: const EdgeInsets.all(10.0),
+                    padding: const EdgeInsets.all(5.0),
                     child: GridView.count(
                       primary: false,
                       padding: const EdgeInsets.all(10),

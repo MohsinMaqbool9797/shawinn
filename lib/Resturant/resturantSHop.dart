@@ -87,7 +87,7 @@ class _ResturantShopState extends State<ResturantShop> {
           //=======================================mobile====================
           if (constraints.maxWidth < 768) {
             return Container(
-              padding: EdgeInsets.all(5.0),
+              padding: EdgeInsets.all(1.0),
               child: Column(
                 children: <Widget>[
                   Container(
@@ -113,7 +113,7 @@ class _ResturantShopState extends State<ResturantShop> {
                       child: GridView.count(
                     primary: false,
                     physics: NeverScrollableScrollPhysics(),
-                    padding: const EdgeInsets.all(25),
+                    padding: const EdgeInsets.all(10),
                     crossAxisCount: 2,
                     crossAxisSpacing: 15,
                     mainAxisSpacing: 15,
@@ -137,16 +137,15 @@ class _ResturantShopState extends State<ResturantShop> {
                             ),
                             child: Padding(
                               padding: const EdgeInsets.all(16.0),
-                              child: const Text.rich(
-                                TextSpan(
-                                  text: 'Breakfast',
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 24.0,
-                                    fontWeight: FontWeight.w600,
-                                    fontFamily: 'Mansory',
-                                  ), // default text styl
-                                ),
+                              child: Text(
+                                'Breakfast',
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 24.0,
+                                  fontWeight: FontWeight.w600,
+                                  fontFamily: 'Mansory',
+                                ), // default text styl
                               ),
                             )),
                         onTap: () {
@@ -179,16 +178,16 @@ class _ResturantShopState extends State<ResturantShop> {
                             ),
                             child: Padding(
                               padding: const EdgeInsets.all(16.0),
-                              child: const Text.rich(
-                                TextSpan(
-                                  text: 'Staters',
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 24.0,
-                                    fontWeight: FontWeight.w600,
-                                    fontFamily: 'Mansory',
-                                  ), // default text style
-                                ),
+                              child: const Text(
+                                'Staters',
+                                textAlign: TextAlign.center,
+
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 24.0,
+                                  fontWeight: FontWeight.w600,
+                                  fontFamily: 'Mansory',
+                                ), // default text style
                               ),
                             )),
                         onTap: () {
@@ -219,16 +218,15 @@ class _ResturantShopState extends State<ResturantShop> {
                             ),
                             child: Padding(
                               padding: const EdgeInsets.all(16.0),
-                              child: const Text.rich(
-                                TextSpan(
-                                  text: 'Soups',
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 24.0,
-                                    fontWeight: FontWeight.w600,
-                                    fontFamily: 'Mansory',
-                                  ), // default text style
-                                ),
+                              child: const Text(
+                                'Soups',
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 24.0,
+                                  fontWeight: FontWeight.w600,
+                                  fontFamily: 'Mansory',
+                                ), // default text style
                               ),
                             )),
                         onTap: () {
@@ -260,16 +258,15 @@ class _ResturantShopState extends State<ResturantShop> {
                             ),
                             child: Padding(
                               padding: const EdgeInsets.all(16.0),
-                              child: const Text.rich(
-                                TextSpan(
-                                  text: 'Main Course',
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 24.0,
-                                    fontWeight: FontWeight.w600,
-                                    fontFamily: 'Mansory',
-                                  ), // default text style
-                                ),
+                              child: const Text(
+                                'Main Course',
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 24.0,
+                                  fontWeight: FontWeight.w600,
+                                  fontFamily: 'Mansory',
+                                ), // default text style
                               ),
                             )),
                         onTap: () {

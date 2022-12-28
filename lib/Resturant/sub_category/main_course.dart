@@ -117,7 +117,7 @@ class _MainCourseState extends State<MainCourse> {
                   Expanded(
                       child: GridView.count(
                     primary: false,
-                    padding: const EdgeInsets.all(25),
+                    padding: const EdgeInsets.all(10),
                     crossAxisCount: 2,
                     crossAxisSpacing: 15,
                     mainAxisSpacing: 15,
@@ -141,16 +141,15 @@ class _MainCourseState extends State<MainCourse> {
                             ),
                             child: Padding(
                               padding: const EdgeInsets.all(13.0),
-                              child: const Text.rich(
-                                TextSpan(
-                                  text: 'International',
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 24.0,
-                                    fontWeight: FontWeight.w600,
-                                    fontFamily: 'Mansory',
-                                  ), // default text styl
-                                ),
+                              child: const Text(
+                                'Inter-\nnational',
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 24.0,
+                                  fontWeight: FontWeight.w600,
+                                  fontFamily: 'Mansory',
+                                ), // default text styl
                               ),
                             )),
                         onTap: () {
@@ -182,17 +181,16 @@ class _MainCourseState extends State<MainCourse> {
                               ),
                             ),
                             child: Padding(
-                              padding: const EdgeInsets.all(16.0),
-                              child: const Text.rich(
-                                TextSpan(
-                                  text: 'North -\nIndian',
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 24.0,
-                                    fontWeight: FontWeight.w600,
-                                    fontFamily: 'Mansory',
-                                  ), // default text style
-                                ),
+                              padding: const EdgeInsets.all(10.0),
+                              child: const Text(
+                                'North -\nIndian',
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 24.0,
+                                  fontWeight: FontWeight.w600,
+                                  fontFamily: 'Mansory',
+                                ), // default text style
                               ),
                             )),
                         onTap: () {
@@ -225,16 +223,15 @@ class _MainCourseState extends State<MainCourse> {
                             ),
                             child: Padding(
                               padding: const EdgeInsets.all(16.0),
-                              child: const Text.rich(
-                                TextSpan(
-                                  text: 'Rice\nRoti\nRaita',
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 24.0,
-                                    fontWeight: FontWeight.w600,
-                                    fontFamily: 'Mansory',
-                                  ), // default text style
-                                ),
+                              child: const Text(
+                                'Rice-\nRoti -\nRaita',
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 24.0,
+                                  fontWeight: FontWeight.w600,
+                                  fontFamily: 'Mansory',
+                                ), // default text style
                               ),
                             )),
                         onTap: () {
@@ -266,16 +263,15 @@ class _MainCourseState extends State<MainCourse> {
                             ),
                             child: Padding(
                               padding: const EdgeInsets.all(16.0),
-                              child: const Text.rich(
-                                TextSpan(
-                                  text: 'Desserts',
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 24.0,
-                                    fontWeight: FontWeight.w600,
-                                    fontFamily: 'Mansory',
-                                  ), // default text style
-                                ),
+                              child: const Text(
+                                'Desserts',
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 24.0,
+                                  fontWeight: FontWeight.w600,
+                                  fontFamily: 'Mansory',
+                                ), // default text style
                               ),
                             )),
                         onTap: () {
@@ -307,16 +303,15 @@ class _MainCourseState extends State<MainCourse> {
                             ),
                             child: Padding(
                               padding: const EdgeInsets.all(16.0),
-                              child: const Text.rich(
-                                TextSpan(
-                                  text: 'Locavore',
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 24.0,
-                                    fontWeight: FontWeight.w600,
-                                    fontFamily: 'Mansory',
-                                  ), // default text style
-                                ),
+                              child: const Text(
+                                'Locavore',
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 24.0,
+                                  fontWeight: FontWeight.w600,
+                                  fontFamily: 'Mansory',
+                                ), // default text style
                               ),
                             )),
                         onTap: () {

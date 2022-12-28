@@ -55,7 +55,7 @@ menu(List items) {
             elevation: 6,
             margin: EdgeInsets.all(10),
             child: SizedBox(
-              height: 90,
+              height: 120,
               child: ListTile(
                 leading: Padding(
                   padding: const EdgeInsets.all(8.0),
@@ -247,13 +247,12 @@ class _StarterState extends State<Starter> {
                     SizedBox(
                       height: 10.0,
                     ),
-                  
                   ],
                 ),
               ),
-                Container(
+              Container(
                 alignment: Alignment.bottomCenter,
-                   child:taxes(),
+                child: taxes(),
               )
             ],
           ),

@@ -55,7 +55,7 @@ menu(List items) {
             elevation: 6,
             margin: EdgeInsets.all(10),
             child: SizedBox(
-              height: 90,
+              height: 150,
               child: ListTile(
                 leading: Padding(
                   padding: const EdgeInsets.all(8.0),
@@ -218,13 +218,12 @@ class _InternationalState extends State<International> {
                     SizedBox(
                       height: 10.0,
                     ),
-                  
                   ],
                 ),
               ),
-                Container(
+              Container(
                 alignment: Alignment.bottomCenter,
-                   child:taxes(),
+                child: taxes(),
               )
             ],
           ),

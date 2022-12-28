@@ -108,7 +108,7 @@ class _TeaRoomState extends State<TeaRoomm> {
                 Expanded(
                   child: GridView.count(
                     primary: false,
-                    padding: const EdgeInsets.all(25),
+                    padding: const EdgeInsets.all(5),
                     crossAxisCount: 2,
                     crossAxisSpacing: 30,
                     mainAxisSpacing: 30,
@@ -131,17 +131,16 @@ class _TeaRoomState extends State<TeaRoomm> {
                               ),
                             ),
                             child: Padding(
-                              padding: const EdgeInsets.all(18.0),
-                              child: const Text.rich(
-                                TextSpan(
-                                  text: 'Hot Coffee \n',
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 28.0,
-                                    fontWeight: FontWeight.w600,
-                                    fontFamily: 'Mansory',
-                                  ), // default text style
-                                ),
+                              padding: const EdgeInsets.all(10.0),
+                              child: const Text(
+                                'Hot \nCoffee',
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 28.0,
+                                  fontWeight: FontWeight.w600,
+                                  fontFamily: 'Mansory',
+                                ), // default text style
                               ),
                             )),
                         onTap: () {
@@ -170,17 +169,16 @@ class _TeaRoomState extends State<TeaRoomm> {
                               ),
                             ),
                             child: Padding(
-                              padding: const EdgeInsets.all(18.0),
-                              child: const Text.rich(
-                                TextSpan(
-                                  text: 'Flavoured Favorites\n',
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 28.0,
-                                    fontWeight: FontWeight.w600,
-                                    fontFamily: 'Mansory',
-                                  ), // default text style
-                                ),
+                              padding: const EdgeInsets.all(10.0),
+                              child: const Text(
+                                'Flavoured\nFavorites',
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 28.0,
+                                  fontWeight: FontWeight.w600,
+                                  fontFamily: 'Mansory',
+                                ), // default text style
                               ),
                             )),
                         onTap: () {
@@ -210,16 +208,15 @@ class _TeaRoomState extends State<TeaRoomm> {
                             ),
                             child: Padding(
                               padding: const EdgeInsets.all(18.0),
-                              child: const Text.rich(
-                                TextSpan(
-                                  text: 'Shakes \n',
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 28.0,
-                                    fontWeight: FontWeight.w600,
-                                    fontFamily: 'Mansory',
-                                  ), // default text style
-                                ),
+                              child: const Text(
+                                'Shakes \n',
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 28.0,
+                                  fontWeight: FontWeight.w600,
+                                  fontFamily: 'Mansory',
+                                ), // default text style
                               ),
                             )),
                         onTap: () {
@@ -248,16 +245,15 @@ class _TeaRoomState extends State<TeaRoomm> {
                             ),
                             child: Padding(
                               padding: const EdgeInsets.all(18.0),
-                              child: const Text.rich(
-                                TextSpan(
-                                  text: 'Iced Tea \n',
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 28.0,
-                                    fontWeight: FontWeight.w600,
-                                    fontFamily: 'Mansory',
-                                  ), // default text style
-                                ),
+                              child: const Text(
+                                'Iced \nTea',
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 28.0,
+                                  fontWeight: FontWeight.w600,
+                                  fontFamily: 'Mansory',
+                                ), // default text style
                               ),
                             )),
                         onTap: () {
@@ -287,15 +283,15 @@ class _TeaRoomState extends State<TeaRoomm> {
                             ),
                             child: Padding(
                               padding: const EdgeInsets.all(18.0),
-                              child: const Text.rich(
-                                TextSpan(
-                                  text: 'Cold Coffiees\n',
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 28.0,
-                                    fontWeight: FontWeight.w600,
-                                    fontFamily: 'Mansory',
-                                  ), // default text style
+                              child: const Text(
+                                'Cold Coffiees\n',
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 28.0,
+                                  fontWeight: FontWeight.w600,
+                                  fontFamily: 'Mansory',
+                                  // default text style
                                 ),
                               ),
                             )),
@@ -327,17 +323,16 @@ class _TeaRoomState extends State<TeaRoomm> {
                               ),
                             ),
                             child: Padding(
-                              padding: const EdgeInsets.all(18.0),
-                              child: const Text.rich(
-                                TextSpan(
-                                  text: 'Aerated Baverages\n',
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 28.0,
-                                    fontWeight: FontWeight.w600,
-                                    fontFamily: 'Mansory',
-                                  ), // default text style
-                                ),
+                              padding: const EdgeInsets.all(10.0),
+                              child: const Text(
+                                'Aerated \nBaverages',
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 26.0,
+                                  fontWeight: FontWeight.w600,
+                                  fontFamily: 'Mansory',
+                                ), // default text style
                               ),
                             )),
                         onTap: () {
@@ -366,16 +361,15 @@ class _TeaRoomState extends State<TeaRoomm> {
                             ),
                             child: Padding(
                               padding: const EdgeInsets.all(18.0),
-                              child: const Text.rich(
-                                TextSpan(
-                                  text: 'Sparkle\n',
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 28.0,
-                                    fontWeight: FontWeight.w600,
-                                    fontFamily: 'Mansory',
-                                  ), // default text style
-                                ),
+                              child: const Text(
+                                'Sparkle\n',
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 28.0,
+                                  fontWeight: FontWeight.w600,
+                                  fontFamily: 'Mansory',
+                                ), // default text style
                               ),
                             )),
                         onTap: () {
@@ -403,16 +397,16 @@ class _TeaRoomState extends State<TeaRoomm> {
                               ),
                             ),
                             child: Padding(
-                              padding: const EdgeInsets.all(18.0),
-                              child: const Text.rich(
-                                TextSpan(
-                                  text: 'Mocktails\n',
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 28.0,
-                                    fontWeight: FontWeight.w600,
-                                    fontFamily: 'Mansory',
-                                  ), // default text style
+                              padding: const EdgeInsets.all(10.0),
+                              child: const Text(
+                                'Mocktails\n',
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 28.0,
+                                  fontWeight: FontWeight.w600,
+                                  fontFamily: 'Mansory',
+                                  // default text style
                                 ),
                               ),
                             )),
